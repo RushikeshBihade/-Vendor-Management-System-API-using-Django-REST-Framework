@@ -15,9 +15,9 @@ This repository contains a Django project with a RESTful API using Django REST F
 - pip install djangorestframework
 
 ## Set up a new project with a single application
-- django-admin startproject Vendor                 
+- django-admin startproject Vendor_management_system                 
 - cd Vendor
-- django-admin startapp Vendor_App              
+- django-admin startapp Vendor              
 
 ## Database migration                    
 - python manage.py makemigrations      
@@ -25,7 +25,6 @@ This repository contains a Django project with a RESTful API using Django REST F
 
 ## Superuser creation and Token generation
 - python manage.py createsuperuser
-- curl -X POST -d "username=your_superuser_username&password=your_superuser_password" http://localhost:8000/api-token-auth/
 
 ## Running the server
 - python manage.py runserver
